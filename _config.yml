@@ -29,9 +29,9 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : 
+        short_name : x
     disqus :
-        short_name : 
+        short_name : x
     # facebook :
     #   appid : 123
     #   num_posts: 5
