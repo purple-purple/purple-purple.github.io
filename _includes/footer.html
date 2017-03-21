@@ -1,12 +1,15 @@
-<footer class="footer" role="contentinfo">
-	<div class="container">
-		<p class="copyright">Copyright &copy; 2014-{{ site.time | date: '%Y' }} <a href="{{site.resume_site}}"><code>{{ site.author }}</code></a>.</p>
-		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme from <a href="http://lesscss.cn/">Less</a></p>
-	</div>
-</footer>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;{{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="https://github.com/scotte/jekyll-clean">Scott Emmons</a>
+            under
+            <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a></p>
+        </div>
+    </div>
+</div>
 
-<script src="{{ '/styles/js/jquery.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/holder.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/lessismore.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/styles/js/application.js' | prepend: site.baseurl }}"></script>
+{% include disqus-counts.html %}
+{% include analytics.html %}
+
+</body>
+</html>
