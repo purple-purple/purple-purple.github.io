@@ -1,3 +1,15 @@
+---
+layout: post
+title:  第一篇博客
+date:   2017-03-30 01:54:00 +0800
+categories: document
+tag: 个人
+---
+
+* content
+{:toc}
+
+
 #第一篇博客
 ##
 花了两天折腾了博客建立到现在，拖了好几天终于开始写我的第一篇博客。<br>
