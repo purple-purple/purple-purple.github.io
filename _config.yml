@@ -1,15 +1,15 @@
 # Site settings
-name:ab_Chen
-email: purple-purple@outlook.com
-author:ab_Chen
-url: 
-resume_site: 
-github: https://github.com/purple-purple/
-baseurl: 
-description: 
-meta_description: 
-motto: 
-banner: 
+name: Less Or More
+email: luoyan35714@126.com
+author: Freud Kang
+url: http://www.hifreud.com
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/luoyan35714/
+baseurl:
+description: Actually, less is more!
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -29,9 +29,9 @@ FB:
   comments :
     provider : duoshuo
     duoshuo:
-        short_name : x
+        short_name : luoyan35714
     disqus :
-        short_name : x
+        short_name : freudkang
     # facebook :
     #   appid : 123
     #   num_posts: 5
